@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&display=swap');
+*{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    background-color: #e4e5db;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392b886' fill-opacity='0.7'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+}
+.container{
+    min-width: 580px;
+    min-height: 304px;
+    color: black;
+    margin: 0 auto;
+    padding: 25px 50px;
+    border-radius: 5px;
+    z-index: 2;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.input-container{
+    position: relative;
+    top: 20px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.form{
+    width: 480px;
+}
+label{
+    font-weight: bold;
+    margin-left: 10px;
+}input{
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    outline: none;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: none;
+    background: #ff8a65;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+}
+ul{
+    margin-left: -45px;
+}
+li{
+    display: inline-block;
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px;
+}
+li span{
+    display: block;
+    font-size: 80px;
+    text-align: center;
+}
+.complete{
+    position: relative;
+    top: 60px;
+}
